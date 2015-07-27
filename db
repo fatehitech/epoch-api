@@ -1,0 +1,2 @@
+#!/bin/bash
+node_modules/.bin/sequelize --models-path src/models --config config/database.json --env ${NODE_ENV=development} $@
